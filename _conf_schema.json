@@ -1,0 +1,25 @@
+{
+  "enabled": {
+    "description": "开启自动推送",
+    "type": "bool",
+    "default": false
+  },
+  "targets": {
+    "description": "接收推送的会话 UMO",
+    "hint": "在目标群或私聊发送 /sid，复制完整 UMO，每项填写一个。",
+    "type": "list",
+    "default": []
+  },
+  "players": {
+    "description": "关注的 AtCoder 用户名",
+    "hint": "每项填写一个 AtCoder handle，例如 tourist。所有目标会话共用这份名单。",
+    "type": "list",
+    "default": []
+  },
+  "series": {
+    "description": "推送比赛系列",
+    "hint": "支持 abc、arc、agc，每项填写一个。",
+    "type": "list",
+    "default": ["abc", "arc", "agc"]
+  }
+}

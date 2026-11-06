@@ -1,0 +1,6 @@
+name: astrbot_plugin_atcoder_helper
+display_name: AtCoder 比赛助手
+desc: 自动发送 AtCoder 赛程、报名提醒、开赛通知和成员赛后总结。
+version: v0.1.0
+author: LucasZou2000
+astrbot_version: ">=4.0.0"
